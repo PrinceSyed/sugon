@@ -18,7 +18,7 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
+        <!-- <div id="unity-webgl-logo"></div> -->
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Sugondese Ninjas</div>
       </div>
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/V1.0.2.loader.js";
+      var loaderUrl = buildUrl + "/V1.0.3.loader.js";
       var config = {
-        dataUrl: buildUrl + "/V1.0.2.data",
-        frameworkUrl: buildUrl + "/V1.0.2.framework.js",
-        codeUrl: buildUrl + "/V1.0.2.wasm",
+        dataUrl: buildUrl + "/V1.0.3.data",
+        frameworkUrl: buildUrl + "/V1.0.3.framework.js",
+        codeUrl: buildUrl + "/V1.0.3.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "NGMI Spike",
         productName: "Sugondese Ninjas",
@@ -105,4 +105,9 @@
       document.body.appendChild(script);
     </script>
   </body>
+  <style>
+    body {
+      background-color: #000;
+    }
+  </style>
 </html>
