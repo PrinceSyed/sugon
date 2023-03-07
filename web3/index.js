@@ -12,7 +12,7 @@ document.body.appendChild(Object.assign(document.createElement("script"), { type
 
 // load web3gl to connect to unity
 window.web3gl = {
-    networkId: 1,
+    networkId: 0,
     connect,
     connectAccount: "",
     signMessage,
