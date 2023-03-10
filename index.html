@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Sugondese Ninjas</title>
+    <title>Sugondese Ninjas | Play</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/V1.2.0.loader.js";
+      var loaderUrl = buildUrl + "/V1.3.0.loader.js";
       var config = {
-        dataUrl: buildUrl + "/V1.2.0.data",
-        frameworkUrl: buildUrl + "/V1.2.0.framework.js",
-        codeUrl: buildUrl + "/V1.2.0.wasm",
+        dataUrl: buildUrl + "/V1.3.0.data",
+        frameworkUrl: buildUrl + "/V1.3.0.framework.js",
+        codeUrl: buildUrl + "/V1.3.0.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "NGMI Spike",
         productName: "Sugondese Ninjas",
@@ -104,5 +104,14 @@
       };
       document.body.appendChild(script);
     </script>
+
+    <style>
+      #unity-webgl-logo {
+        display: none;
+      }
+      body {
+        background: #000;
+      }
+    </style>
   </body>
 </html>
